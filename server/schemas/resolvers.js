@@ -134,8 +134,8 @@ const resolvers = {
       let message = `Your information was sent to Integral Solutions. A represenative will be in touch soon.`;
 
       const msg = {
-        to: args.toEmail ? `${args.toEmail}` : "contact@integralofficesolutions.com",
-        from: args.fromEmail ? `${args.fromEmail}` : "contact@integralofficesolutions.com",
+        to: args.toEmail ? `${args.toEmail}` : "rod.bennett75@gmail.com",
+        from: args.fromEmail ? `${args.fromEmail}` : "rod.bennett75@gmail.com",
         subject: args.subject,
         text: args.textContent,
         html: args.htmlContent,
